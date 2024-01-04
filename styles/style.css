@@ -44,13 +44,12 @@
     /* border-width: 20px; */
     /* border-color: chocolate; */
     /* border-style: solid; */
-
     /* text-align: center; */
 
 }
 
 .article h2,
-#cow-type {
+#cow-type h2 {
     text-align: center;
     font-size: 50px;
 
