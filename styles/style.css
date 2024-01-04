@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
 /* h1 {
     background-color: blue;
 } */
@@ -9,7 +17,7 @@
     height: 100vw;
 }
 
-.hero h1{
+.hero h1 {
     color: rgb(70, 131, 131);
     text-align: center;
     padding-top: 60px;
@@ -18,5 +26,51 @@
     font-weight: 900;
     word-spacing: 20px;
     letter-spacing: 30px;
-    
+
+}
+
+.article {
+    font-size: larger;
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px; */
+
+    margin: 60px auto;
+    background-color: aqua;
+    padding: 60px;
+
+    border-width: 20px;
+    border-color: chocolate;
+    border-style: solid;
+
+    /* text-align: center; */
+
+}
+
+.article h2 {
+    text-align: center;
+    font-size: 50px;
+
+
+    border-style: solid;
+
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 3px;
+    border-color: chocolate;
+
+
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.article p {
+    font-size: 28px;
+    line-height: 1.2em;
+}
+
+.article p .imp {
+    font-size: 1.5em;
 }
