@@ -11,10 +11,10 @@
 } */
 
 .hero {
-    background-image: url('../img/cow.jpg');
+    background-image: url('https://images.unsplash.com/photo-1595664652035-0956d50e0311?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvd3xlbnwwfHwwfHx8MA%3D%3D');
     background-size: cover;
     background-position: bottom center;
-    height: 100vw;
+    height: 60vw;
 }
 
 .hero h1 {
@@ -29,7 +29,8 @@
 
 }
 
-.article {
+.article,
+#cow-type {
     font-size: larger;
     width: 80%;
     /* margin-left: auto;
@@ -37,18 +38,19 @@
     margin-top: 100px; */
 
     margin: 60px auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 60px;
 
-    border-width: 20px;
-    border-color: chocolate;
-    border-style: solid;
+    /* border-width: 20px; */
+    /* border-color: chocolate; */
+    /* border-style: solid; */
 
     /* text-align: center; */
 
 }
 
-.article h2 {
+.article h2,
+#cow-type {
     text-align: center;
     font-size: 50px;
 
@@ -73,4 +75,22 @@
 
 .article p .imp {
     font-size: 1.5em;
+}
+
+
+.cow-images {
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+.cow-images div {
+    min-width: 300px;
+
+}
+
+.cow-images img {
+    width: 100%;
+
 }
