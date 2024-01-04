@@ -1,3 +1,22 @@
-h1 {
+/* h1 {
     background-color: blue;
+} */
+
+.hero {
+    background-image: url('../img/cow.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vw;
+}
+
+.hero h1{
+    color: rgb(70, 131, 131);
+    text-align: center;
+    padding-top: 60px;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    word-spacing: 20px;
+    letter-spacing: 30px;
+    
 }
